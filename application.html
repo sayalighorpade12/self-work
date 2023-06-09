@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Application Form </title>
+        <link rel="stylesheet" href="form.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Kanit&family=Oswald&family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <fieldset class="main">
+            <h1>Application For permission To Date My Daughter</h1>
+        <p><strong>Note:</strong>Form is to be completed at least 21 days prior to date</p>
+        
+        <form>
+            <fieldset class="main1">
+                <legend> Personal Details </legend>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" placeholder="Enter name here" ></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Address:</label></td>
+                            <td><input type="text" placeholder="Enter name here"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Email:</label></td>
+                            <td><input type="text" placeholder="Enter email here"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Phone Number:</label></td>
+                            <td><input type="number" placeholder="Enter 10 digit number"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Enter IQ here</label></td>
+                            <td><input type="text" placeholder="Enter IQ here"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label>Gender:</label></td>
+                            <td>
+                                <ul>
+                                <li><input type="radio" name="gender"><label>Male</label></li>
+                                <li><input type="radio" name="gender"><label>Female</label></li>
+                                <li><input type="radio" name="gender"><label>Other</label></li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Date of Proposed Outing:</label></td>
+                            <td><input type="date" min="01-01-2000" max="01-01-2015" id="date"></td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </fieldset>
+        </form>
+
+        <fieldset class="main2">
+            <span id="name">Check All That Apply</span>
+            <input type="checkbox"><label class="name1">I have tattoos and/or piercings</label><br>
+            <input type="checkbox"><label>I am more than 2 years older than my daughter</label><br>
+            <input type="checkbox"><label>I own a panel van or V8 ute</label><br>
+            <input type="checkbox"><label>I work full-time</label><br>
+            <input type="checkbox"><label>My parents are rich</label><br>
+            <input type="checkbox"><label>Is the date at a well lit public location</label>
+        </fieldset>
+   
+        <fieldset class="main3">
+            <label> Political Persuasion:</label>
+            <select>
+                <option>Left Wing</option>
+                <option>Right Wing</option>
+                <option>A Wing</option>
+                <option>B Wing</option>
+            </select>
+            <label>Education Level completed:</label>
+            <select>
+                <option>University</option>
+                <option>Autonomous</option>
+            </select>
+        </fieldset>
+
+
+
+        <fieldset class="main4"><br>
+            <legend>Essay Section</legend>
+
+            <label id="file">In 50 words or more explain why you want to date my daughter</label><br>
+            <textarea cols="25" rows="5" placeholder="Enter text here"></textarea> <br><br>
+
+            <label> Please upload contact details for 2 references</label><br>
+            <textarea cols="25" rows="5" placeholder="Enter text here"></textarea> <br><br>
+
+            <label> Please upload contact details for 2 references</label><br>
+            <textarea cols="25" rows="5" placeholder="Enter text here"></textarea> <br><br>
+
+            <label> Uplod Police Clearance Certificate, Bank Statement and Medical Certificates here:</label>
+            <input type="file">
+        </fieldset>
+           <button type="submit" >Send Your Application</button>
+        </fieldset>
+    </body>
+</html>
