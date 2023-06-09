@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rservation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Kanit&family=Mukta&family=Oswald&family=Roboto&family=Roboto+Slab&display=swap"
+      rel="stylesheet"/>
+    <style>
+      
+      .container {
+        height: 850px;
+        width: 900px;
+        background-color: white;
+        margin-left: 400px;
+        font-size: x-large;
+        
+        font-family: "Roboto Slab", serif;
+        
+
+
+      }
+
+      h1 {
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-shadow: 1px 1px 1px #747d8c;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #bdc3c7;
+      }
+
+      .box {
+        float: left;
+        margin-left: 80px;
+      }
+      .box #main {
+        display: block;
+        font-size: x-large;
+        padding-top: 52px;
+        margin-right: 70px;
+      }
+      .box #main1 {
+        padding: 16px 20px 16px 20px;
+        margin-top: 20px;
+        font-size: large;
+      }
+      .box1 {
+        margin-top: 50px;
+        float: left;
+        margin-right: 50px;
+      }
+
+      .box1 #main3 {
+        display: block;
+        font-size: x-large;
+      }
+      .box1 input {
+        padding: 15px 20px 15px 20px;
+        margin-top: 20px;
+        width: 400px;
+        font-size: large;
+      }
+      .box2 {
+        padding-top: 50px;
+        
+      }
+      .box2 #num {
+        font-size: x-large;
+        display: block;
+     
+      }
+      .box2 #num1 {
+        padding: 16px 20px 16px 20px;
+        margin-top: 20px;
+        font-size: large;
+      }
+
+      hr {
+        margin-top: 50px;
+        border: 1px solid black;
+      }
+     
+     .box3{
+        padding-top: 8px;
+        margin-left: 90px;
+        
+
+     }
+     .name {
+        font-size: x-large;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+        padding-left: 20px;
+        font-weight: bold;
+      }
+
+      button{
+     
+        width: 28%;
+        height: 60px;
+        font-size: large;
+       
+}
+      
+      .box4 {
+        padding-top: 8px;
+        margin-left: 90px;
+      }
+
+      .box5 {
+        margin-top: 8px;
+        margin-left: 90px;
+      }
+
+      .name1 {
+        font-size: x-large;
+        padding-top: 80px;
+        padding-bottom: 60px;
+        font-weight: 600;
+        padding-left: 110px;
+        
+      }
+
+      .namee{
+        margin-top: 80px;
+        padding-bottom: 70px;
+        font-size: x-large;
+      }
+      .sub{
+      
+        width: 100%;
+        height: 150px;
+        box-shadow: 8px 8px 10px -8px rgb(51, 49, 49) inset;
+        background-color: #bdc3c7;
+        
+        border-radius: 8px;
+      }
+      #button{
+        width: 50%;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #456fb8;
+        color: #f1f1f1;
+        font-size: x-large;
+        font-weight: 600;
+        margin-left: 230px;
+        margin-top: 60px;
+        padding: 5px;
+      }
+      button:hover{
+        background-color: burlywood;
+      }
+     
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mocha Cafe</h1>
+
+      <div class="box">
+        <form>
+          <label id="main">Party</label>
+
+          <select id="main1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+        </form>
+      </div>
+
+      <div class="box1">
+        <form>
+          <label id="main3">Date</label>
+          <input type="date" placeholder="Today" />
+        </form>
+      </div>
+
+      <div class="box2">
+        <label id="num">Time</label>
+        <select id="num1">
+          <option>1.00 pm</option>
+          <option>1.10 pm</option>
+          <option>1.30 pm</option>
+          <option>2.00 pm</option>
+          <option>2.30 pm</option>
+          <option>6.00 pm</option>
+          <option>7.00 pm</option>
+          <option>7.30 pm</option>
+          <option>9.00 pm</option>
+        </select>
+      </div>
+      <hr />
+
+      <div class="box3">
+        <span class="name">Please choose a time below:</span>
+
+        <button>1.00 pm</button>
+        <button>1.10 pm</button>
+        <button>1.30 pm</button>
+      </div>
+
+      <div class="box4">
+        <button>2.00 pm</button>
+        <button>2.30 pm</button>
+        <button>6.00 pm</button>
+      </div>
+
+      <div class="box5">
+        <button>7.00 pm</button>
+        <button>7.30 pm</button>
+        <button>9.00 pm</button>
+      </div>
+
+
+      <div class="namee">
+      <span class="name1">Booking times are provided in partnership with &nbsp;
+        <a href="https://www.dineout.co.in/" target="_blank">Dineout</a></span >
+    </div>
+
+        <div class="sub"> 
+            <button type="submit" id="button">Continue</button>
+    </div>
+     
+    
+</div>
+  </body>
+</html>
