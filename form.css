@@ -1,0 +1,104 @@
+.main{
+    width: 1100px;
+    margin-left: 180px;
+    background-color: white;
+}
+
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+p{
+    font-size: x-large;
+}
+
+.main1{
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+
+td{
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+
+input{
+    border-radius: 3px;
+    border: 1px solid rgb(94, 88, 88);
+    font-size: medium;
+}
+
+.main2{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: x-large;
+
+
+}
+#name{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.main3{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: x-large;
+
+}
+.main4{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    color: black;
+
+}
+
+legend{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#tools{
+    padding-top: 20px;
+}
+
+textarea{
+    border: 1px solid black;
+   color: black;
+}
+.file{
+    border: 1px solid white
+}
+
+#add, #add1, #add2{
+    font-size: large;
+    display: block;
+    color: black;
+}
+
+button{
+    padding: 7px;
+    background-color: rgb(185, 230, 62);
+    color: rgb(15, 15, 15);
+    font-size: large;
+    border: rgb(185, 230, 62);
+    margin-left: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+select{
+    font-size: large;
+}
+
+
